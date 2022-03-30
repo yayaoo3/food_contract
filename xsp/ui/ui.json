@@ -1,0 +1,447 @@
+{
+   "style" : "custom",
+   "config" : "save_111.dat",
+   "width" : 580,
+   "height" : 720,
+   "cancelname" : "Cancel",
+   "okname" : "Yes",
+   "countdown" : 200,
+   "views" : [
+      {
+         "type" : "Page",
+         "style" : "custom",
+         "text" : "基础设置",
+         "views" : [
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "模式選擇",
+               "type" : "Label",
+               "rect" : "40,0,200,50"
+            },
+            {
+               "id" : "SupportFunction",
+               "list" : "清好友露比,自動備菜,孵墮神,學院補給,自動探索,自動冰場,邪神副本,皇家對決",
+               "select" : "",
+               "size" : "25",
+               "type" : "CheckBoxGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,50,540,200"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "菜系選擇",
+               "type" : "Label",
+               "rect" : "40,250,200,50"
+            },
+            {
+               "id" : "cb_DishType",
+               "list" : "全部,格瑞洛,耀之州,櫻之島,失落",
+               "select" : "4",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,300,200,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "第N道菜(1~9)",
+               "type" : "Label",
+               "rect" : "300,250,200,50"
+            },
+            {
+               "id" : "et_DishPos",
+               "type" : "Edit",
+               "prompt" : "请输入数值",
+               "text" : "1",
+               "size" : 25,
+               "align" : "left",
+               "color" : "255,0,0",
+               "kbtype" : "number",
+               "rect" : "300,300,100,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "墮神靈體位置(1~16)",
+               "type" : "Label",
+               "rect" : "40,375,300,50"
+            },
+            {
+               "id" : "et_GERAREPos",
+               "type" : "Edit",
+               "prompt" : "请输入数值",
+               "text" : "1",
+               "size" : 20,
+               "align" : "left",
+               "color" : "0,255,0",
+               "kbtype" : "number",
+               "rect" : "350,370,100,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "重啟腳本週期(分鐘)",
+               "type" : "Label",
+               "rect" : "40,455,300,50"
+            },
+            {
+               "id" : "et_CountTime",
+               "type" : "Edit",
+               "prompt" : "请输入数值",
+               "text" : "1",
+               "size" : 20,
+               "align" : "left",
+               "color" : "0,0,255",
+               "kbtype" : "number",
+               "rect" : "350,450,100,60"
+            }
+         ]
+      },
+      {
+         "type" : "Page",
+         "style" : "custom",
+         "text" : "進階設置",
+         "views" : [
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "探索物品(找不到就隨便)",
+               "type" : "Label",
+               "rect" : "40,0,350,50"
+            },
+            {
+               "id" : "cb_Explore_Material",
+               "list" : "隨便,螺絲釘,空心板磚,鋼材,木板",
+               "select" : "0",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,40,250,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "探索位置",
+               "type" : "Label",
+               "rect" : "400,0,150,50"
+            },
+            {
+               "id" : "cb_Explore_Stage",
+               "list" : "隨便,左邊,中間,右邊",
+               "select" : "0",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "350,40,150,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,200,0",
+               "size" : "30",
+               "text" : "選擇掃蕩次數",
+               "type" : "Label",
+               "rect" : "40,100,350,50"
+            },
+            {
+               "id" : "cb_SweepTime",
+               "list" : "1,5",
+               "select" : "0",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,140,200,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,200,0",
+               "size" : "30",
+               "text" : "選擇做料理次數",
+               "type" : "Label",
+               "rect" : "300,100,250,50"
+            },
+            {
+               "id" : "cb_CookNum",
+               "list" : "1,10",
+               "select" : "0",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "300,140,200,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,190",
+               "size" : "30",
+               "text" : "腳本運行方式",
+               "type" : "Label",
+               "rect" : "40,200,250,50"
+            },
+            {
+               "id" : "cb_Script",
+               "list" : "重新啟動,重新登入",
+               "select" : "0",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,240,250,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "探索隊伍數量",
+               "type" : "Label",
+               "rect" : "40,300,300,50"
+            },
+            {
+               "id" : "cb_ExploreNum",
+               "list" : "0,1,2,3,4",
+               "select" : "0",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,340,200,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "外送隊伍數量",
+               "type" : "Label",
+               "rect" : "340,300,200,50"
+            },
+            {
+               "id" : "cb_DeliveryNum",
+               "list" : "0,1,2,3",
+               "select" : "0",
+               "size" : "25",
+               "type" : "ComboBox",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "340,340,200,60"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "藥劑使用人員",
+               "type" : "Label",
+               "rect" : "40,400,200,50"
+            },
+            {
+               "id" : "cb_Medicine",
+               "list" : "服務員2,服務員3,廚師右",
+               "select" : "",
+               "size" : "22",
+               "type" : "CheckBoxGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,440,500,200"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "25",
+               "text" : "邪神遺跡[防禦系,戰鬥系,魔法系,輔助系]",
+               "type" : "Label",
+               "rect" : "40,480,500,50"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "20",
+               "text" : "分別輸入位置資訊,用@分割,EX:[1@2][2][3][1@12]",
+               "type" : "Label",
+               "rect" : "40,520,500,50"
+            },
+            {
+               "id" : "et_Meat",
+               "type" : "Edit",
+               "prompt" : "防禦系",
+               "text" : "1@2",
+               "size" : 20,
+               "align" : "left",
+               "color" : "129,154,186",
+               "kbtype" : "number",
+               "rect" : "40,550,130,60"
+            },
+            {
+               "id" : "et_Saber",
+               "type" : "Edit",
+               "prompt" : "戰鬥系",
+               "text" : "1@2",
+               "size" : 20,
+               "align" : "left",
+               "color" : "255,70,70",
+               "kbtype" : "number",
+               "rect" : "170,550,130,60"
+            },
+            {
+               "id" : "et_Caster",
+               "type" : "Edit",
+               "prompt" : "魔法系",
+               "text" : "1@2",
+               "size" : 20,
+               "align" : "left",
+               "color" : "220,30,230",
+               "kbtype" : "number",
+               "rect" : "300,550,130,60"
+            },
+            {
+               "id" : "et_Healer",
+               "type" : "Edit",
+               "prompt" : "輔助系",
+               "text" : "1@2",
+               "size" : 20,
+               "align" : "left",
+               "color" : "86,220,72",
+               "kbtype" : "number",
+               "rect" : "430,550,130,60"
+            }
+         ]
+      },
+      {
+         "type" : "Page",
+         "style" : "custom",
+         "text" : "任務設置",
+         "views" : [
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "自動領取任務獎勵",
+               "type" : "Label",
+               "rect" : "40,0,350,50"
+            },
+            {
+               "id" : "cb_MissionAward",
+               "list" : "每日,公會,便當,信箱,金蛋",
+               "select" : "",
+               "size" : "22",
+               "type" : "CheckBoxGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,40,550,200"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "自動完成任務",
+               "type" : "Label",
+               "rect" : "40,100,350,50"
+            },
+            {
+               "id" : "cb_MissionJob",
+               "list" : "低階建造,自動空運,自動外送",
+               "select" : "",
+               "size" : "22",
+               "type" : "CheckBoxGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,150,500,200"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "自動購買任務",
+               "type" : "Label",
+               "rect" : "40,200,350,50"
+            },
+            {
+               "id" : "cb_PurchaseJob",
+               "list" : "市場,小費勳章商店,義大利碎片,公會葉子,內褲",
+               "select" : "",
+               "size" : "22",
+               "type" : "CheckBoxGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,250,500,200"
+            },
+			{
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "20",
+               "text" : "商店欲購買選項",
+               "type" : "Label",
+               "rect" : "40,330,350,50"
+            },
+            {
+               "id" : "cb_StoreSetting",
+               "list" : "UR,M,SR,葉子,愛心,草莓,市場葉子,市場食物",
+               "select" : "",
+               "size" : "22",
+               "type" : "CheckBoxGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225",
+               "rect" : "40,360,500,200"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "25",
+               "text" : "自動消耗體力(慎用,0關閉)",
+               "type" : "Label",
+               "rect" : "40,440,350,50"
+            },
+			{
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "25",
+               "text" : "頁",
+               "type" : "Label",
+               "rect" : "130,480,350,50"
+            },
+			{
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "25",
+               "text" : "位置(1~20)",
+               "type" : "Label",
+               "rect" : "240,480,350,50"
+            },
+            {
+               "id" : "et_AutoStagePage",
+               "type" : "Edit",
+               "prompt" : "0~5",
+               "text" : "0",
+               "size" : 20,
+               "align" : "left",
+               "color" : "255,0,10",
+               "kbtype" : "number",
+               "rect" : "40,480,90,60"
+            },
+            {
+               "id" : "et_AutoStagePos",
+               "type" : "Edit",
+               "prompt" : "最新材料位置",
+               "text" : "0",
+               "size" : 20,
+               "align" : "left",
+               "color" : "255,0,10",
+               "kbtype" : "number",
+               "rect" : "160,480,80,60"
+            }
+         ]
+      }
+   ]
+}

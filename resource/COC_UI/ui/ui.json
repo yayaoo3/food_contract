@@ -1,0 +1,2028 @@
+{
+    "style": "custom",
+    "config": "save_111.dat",
+    "width": 580,
+    "height": 720,
+	"bg": "a.png",
+    "cancelname": "Cancel",
+    "okname": "Let's Rock",
+    "views": [
+        {
+            "type": "Page",
+            "style": "custom",
+            "text": "基础设置",
+            "views": [
+                {
+                    "type": "Image",
+                    "src": "a.jpg",
+                    "rect": "10,0,285,220"
+                },
+
+				{
+                    "type": "Image",
+                    "src": "c.jpg",
+                    "rect": "310,0,240,220"
+                },
+                {
+                    "id": "101",
+                    "type": "CheckBoxGroup",
+                    "list": "训练加速",
+                    "select": "0",
+                    "rect": "40,70,130,30"
+                },
+                {
+                    "id": "102",
+                    "type": "CheckBoxGroup",
+                    "list": "暗黑加速",
+                    "select": "0",
+                    "rect": "140,70,130,30"
+                },
+                {
+                    "id": "103",
+                    "type": "CheckBoxGroup",
+                    "list": "双王加速",
+                    "select": "0",
+                    "rect": "40,110,130,30"
+                },
+                {
+                    "id": "104",
+                    "type": "CheckBoxGroup",
+                    "list": "自动捐兵",
+                    "select": "0",
+                    "rect": "140,110,130,30"
+                },
+                {
+                    "id": "105",
+                    "type": "CheckBoxGroup",
+                    "list": "请求增援",
+                    "select": "0",
+                    "rect": "40,150,130,30"
+                },
+                {
+                    "id": "106",
+                    "type": "CheckBoxGroup",
+                    "list": "保持在线",
+                    "select": "0",
+                    "rect": "140,150,130,30"
+                }
+            ]
+        },
+        {
+            "type": "Page",
+            "style": "custom",
+            "text": "搜鱼设置",
+            "views": [
+                {
+                    "type": "Image",
+                    "src": "b.jpg",
+                    "rect": "10,0,210,220"
+                },
+				 {
+                    "type": "Image",
+                    "src": "d.jpg",
+                    "rect": "230,0,350,220"
+                },
+                {
+                    "id": "210",
+                    "type": "Edit",
+                    "prompt": "搜索敌方金币最低值",
+                    "text": "120000",
+                    "size": 15,
+                    "align": "center",
+                    "color": "230,240,30",
+                    "kbtype": "number",
+                    "rect": "75,60,100,25"
+                },
+                {
+                    "id": "211",
+                    "type": "Edit",
+                    "prompt": "搜索敌方圣水最低值",
+                    "text": "100000",
+                    "size": 15,
+                    "align": "center",
+                    "color": "147,40,185",
+                    "kbtype": "number",
+                    "rect": "75,95,100,25"
+                },
+                {
+                    "id": "212",
+                    "type": "Edit",
+                    "prompt": "搜索敌方黑水最低值",
+                    "text": "900",
+                    "size": 15,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "75,130,100,25"
+                },
+				     {
+                    "id": "213",
+                    "type": "Edit",
+                    "prompt": "搜索敌方金+水+黑*100的总和",
+                    "text": "240000",
+                    "size": 15,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "75,165,100,25"
+                },
+				{
+            
+				"id": "220",
+				"type": "ComboBox",
+				"list": "单独满足,全部满足",
+				"select": "1",
+			    "rect": "240,50,90,25"
+                },
+				{
+                    "id": "221",
+                    "type": "Edit",
+                    "prompt": "最低杯段",
+                    "text": "980",
+                    "size": 15,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "240,115,90,25"
+                },
+				{
+                    "id": "222",
+                    "type": "Edit",
+                    "prompt": "最高杯段",
+                    "text": "2100",
+                    "size": 15,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "240,172,90,25"
+                },
+				{
+                    "id": "230",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "385,60,80,30"
+                },
+				{
+                    "id": "231",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "385,115,80,30"
+                },
+				{
+                    "id": "232",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "385,170,80,30"
+                },
+			    {
+                    "id": "233",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "465,60,80,30"
+                },
+				{
+                    "id": "234",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "465,117,80,30"
+                },
+				{
+                    "id": "235",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "465,170,80,30"
+                },
+								{
+                    "id": "236",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "550,60,80,30"
+                },
+				{
+                    "id": "237",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "550,117,80,30"
+                },
+								{
+                    "id": "238",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "550,170,80,30"
+                }
+
+            ]
+        },
+		  {
+            "type": "Page",
+            "style": "custom",
+            "text": "高级设置",
+            "views": [
+                {
+                    "type": "Image",
+                    "src": "b2.jpg",
+                    "rect": "10,0,210,220"
+                },
+				 {
+                    "type": "Image",
+                    "src": "d2.jpg",
+                    "rect": "230,0,350,220"
+                },
+                {
+                    "id": "250",
+                    "type": "Edit",
+                    "prompt": "搜索敌方金币最低值",
+                    "text": "120000",
+                    "size": 15,
+                    "align": "center",
+                    "color": "230,240,30",
+                    "kbtype": "number",
+                    "rect": "75,60,100,25"
+                },
+                {
+                    "id": "251",
+                    "type": "Edit",
+                    "prompt": "搜索敌方圣水最低值",
+                    "text": "100000",
+                    "size": 15,
+                    "align": "center",
+                    "color": "147,40,185",
+                    "kbtype": "number",
+                    "rect": "75,95,100,25"
+                },
+                {
+                    "id": "252",
+                    "type": "Edit",
+                    "prompt": "搜索敌方黑水最低值",
+                    "text": "900",
+                    "size": 15,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "75,130,100,25"
+                },
+				     {
+                    "id": "253",
+                    "type": "Edit",
+                    "prompt": "搜索敌方金+水+黑*100的总和",
+                    "text": "240000",
+                    "size": 15,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "75,165,100,25"
+                },
+				{
+            
+				"id": "260",
+				"type": "ComboBox",
+				"list": "单独满足,全部满足",
+				"select": "1",
+			    "rect": "240,50,90,25"
+                },
+								{
+            
+				"id": "261",
+				"type": "ComboBox",
+				"list": "跳跃下兵,均匀下兵",
+				"select": "1",
+			    "rect": "240,115,90,25"
+                },
+				{
+            
+				"id": "262",
+				"type": "ComboBox",
+				"list": "全自动,自动造兵,造兵+搜鱼,保持在线",
+				"select": "1",
+			    "rect": "240,172,90,25"
+                }
+            ]
+        },
+        {
+            "type": "Page",
+            "style": "custom",
+            "text": "军队配置",
+            "views": [
+			 {
+                    "type": "Image",
+                    "src": "f.jpg",
+                    "rect": "10,0,560,220"
+                },
+				{
+                    "id": "300",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "135,22,80,30"
+                },
+			    {
+                    "id": "301",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "215,22,80,30"
+                },
+				{
+                    "id": "302",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "290,22,80,30"
+                },
+				{
+                    "id": "303",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "368,22,80,30"
+                },
+				{
+                    "id": "304",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "0",
+                    "rect": "447,22,80,30"
+                },
+				{
+                    "id": "305",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "135,92,80,30"
+                },
+				{
+                    "id": "306",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "215,92,80,30"
+                },
+				{
+                    "id": "307",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "290,92,80,30"
+                },
+				{
+                    "id": "308",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "368,92,80,30"
+                },
+				{
+                    "id": "309",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "447,92,80,30"
+                },
+				{
+                    "id": "310",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "135,162,80,30"
+                },
+				{
+                    "id": "311",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "215,162,80,30"
+                },
+				{
+                    "id": "312",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "290,162,80,30"
+                },
+				{
+                    "id": "313",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "368,162,80,30"
+                },
+				{
+                    "id": "314",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "447,162,80,30"
+                },
+				{
+                    "id": "315",
+                    "type": "CheckBoxGroup",
+                    "list": " ",
+                    "select": "",
+                    "rect": "526,162,80,30"
+                },
+				{
+                    "id": "350",
+                    "type": "Edit",
+                    "prompt": "野蛮人数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "60",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "84,57,45,17"
+                },
+                {
+                    "id": "351",
+                    "type": "Edit",
+                    "prompt": "弓箭手数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "110",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "162,57,45,17"
+                },
+				 {
+                    "id": "352",
+                    "type": "Edit",
+                    "prompt": "哥布林数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "239,57,45,17"
+                },
+			    {
+                    "id": "353",
+                    "type": "Edit",
+                    "prompt": "炸弹人数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错，炸弹人人口x2)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "316,57,45,17"
+                },
+			    {
+                    "id": "354",
+                    "type": "Edit",
+                    "prompt": "巨人数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错,巨人人口x5)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "394,57,45,17"
+                },
+			    {
+                    "id": "355",
+                    "type": "Edit",
+                    "prompt": "法师数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错,法师人口x2)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "84,127,45,17"
+                },
+				{
+                    "id": "356",
+                    "type": "Edit",
+                    "prompt": "天使数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "162,127,45,17"
+                },
+				{
+                    "id": "357",
+                    "type": "Edit",
+                    "prompt": "气球人数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "239,127,45,17"
+                },
+				{
+                    "id": "358",
+                    "type": "Edit",
+                    "prompt": "巨龙数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "316,127,45,17"
+                },
+				{
+                    "id": "359",
+                    "type": "Edit",
+                    "prompt": "皮卡超人数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "394,127,45,17"
+                },
+				{
+                    "id": "360",
+                    "type": "Edit",
+                    "prompt": "小恶魔数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "84,197,45,17"
+                },
+				{
+                    "id": "361",
+                    "type": "Edit",
+                    "prompt": "野猪数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "162,197,45,17"
+                },
+				{
+                    "id": "362",
+                    "type": "Edit",
+                    "prompt": "女武神数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "239,197,45,17"
+                },
+				{
+                    "id": "363",
+                    "type": "Edit",
+                    "prompt": "石头人数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "316,197,45,17"
+                },
+				{
+                    "id": "364",
+                    "type": "Edit",
+                    "prompt": "女巫数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "394,197,45,17"
+                },
+				{
+                    "id": "365",
+                    "type": "Edit",
+                    "prompt": "天狗数量,助手会自动平均分配至您可用兵营(请填写纯数字，否则会出错)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "472,197,45,17"
+                }
+			
+			
+			]
+        },
+		{
+            "type": "Page",
+            "style": "custom",
+            "text": "优先进攻",
+            "views": [             
+			    {
+                    "type": "Image",
+                    "src": "h.jpg",
+                    "rect": "10,0,210,220"
+                },
+				{
+                    "type": "Image",
+                    "src": "g.jpg",
+                    "rect": "228,0,130,220"
+                },
+				 {
+                    "type": "Image",
+                    "src": "m.jpg",
+                    "rect": "360,0,210,220"
+                },
+				{
+                    "id": "400",
+                    "type": "CheckBoxGroup",
+                    "list": "金库",
+                    "select": "0",
+                    "rect": "60,75,80,30"
+                },
+				{
+                    "id": "401",
+                    "type": "CheckBoxGroup",
+                    "list": "大本营",
+                    "select": "",
+                    "rect": "147,75,80,30"
+                },
+				{
+                    "id": "402",
+                    "type": "CheckBoxGroup",
+                    "list": "水库",
+                    "select": "0",
+                    "rect": "60,136,80,30"
+                },
+				{
+                    "id": "403",
+                    "type": "CheckBoxGroup",
+                    "list": "黑水库",
+                    "select": "",
+                    "rect": "147,136,80,30"
+                },
+				{
+                    "id": "404",
+                    "type": "CheckBoxGroup",
+                    "list": "金矿",
+                    "select": "0",
+                    "rect": "413,75,80,30"
+                },
+				{
+                    "id": "405",
+                    "type": "CheckBoxGroup",
+                    "list": "大本营",
+                    "select": "",
+                    "rect": "500,75,80,30"
+                },
+				{
+                    "id": "406",
+                    "type": "CheckBoxGroup",
+                    "list": "水瓶",
+                    "select": "0",
+                    "rect": "413,136,80,30"
+                },
+				{
+                    "id": "407",
+                    "type": "CheckBoxGroup",
+                    "list": "黑采集",
+                    "select": "",
+                    "rect": "500,136,80,30"
+                }
+			
+			]
+        },
+        {
+            "type": "Page",
+            "style": "custom",
+            "text": "活鱼战斗",
+            "views": [	
+ {
+                    "type": "Image",
+                    "src": "ts1.jpg",
+                    "rect": "455,10,100,220"
+                },		
+		 {
+            "id": "500",
+            "type": "Label",
+            "text": "进攻流程       下兵兵种            下兵数量 间隔(毫秒)     集火程度",
+            "size": 14,
+            "align": "center",
+            "color": "0,0,255",
+			"rect": "0,12,420,30"
+        },	
+			
+			     {
+                    "id": "501",
+                    "type": "CheckBoxGroup",
+                    "list": "第一波",
+                    "select": "0",
+                    "rect": "10,40,80,30"
+                },
+			    {
+                    "id": "502",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,40,120,20"
+                },
+				{
+                    "id": "503",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "8",
+                    "size": 10,
+                    "align": "left",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,40,45,20"
+                },
+				{
+                    "id": "504",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,40,60,20"
+                },
+				{
+                    "id": "505",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "3",
+					"rect": "325,40,115,20"
+                },
+				{
+                    "id": "511",
+                    "type": "CheckBoxGroup",
+                    "list": "第二波",
+                    "select": "0",
+                    "rect": "10,70,80,30"
+                },
+			    {
+                    "id": "512",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,70,120,20"
+                },
+				{
+                    "id": "513",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,70,45,20"
+                },
+				{
+                    "id": "514",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,70,60,20"
+                },
+				{
+                    "id": "515",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,70,115,20"
+                },
+				{
+                    "id": "521",
+                    "type": "CheckBoxGroup",
+                    "list": "第三波",
+                    "select": "0",
+                    "rect": "10,100,80,30"
+                },
+			    {
+                    "id": "522",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "1",
+					"rect": "85,100,120,20"
+                },
+				{
+                    "id": "523",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "40",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,100,45,20"
+                },
+				{
+                    "id": "524",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,100,60,20"
+                },
+				{
+                    "id": "525",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "1",
+					"rect": "325,100,115,20"
+                },
+								{
+                    "id": "531",
+                    "type": "CheckBoxGroup",
+                    "list": "第四波",
+                    "select": "0",
+                    "rect": "10,130,80,30"
+                },
+			    {
+                    "id": "532",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "4",
+					"rect": "85,130,120,20"
+                },
+				{
+                    "id": "533",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,130,45,20"
+                },
+				{
+                    "id": "534",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,130,60,20"
+                },
+				{
+                    "id": "535",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,130,115,20"
+                },
+				{
+                    "id": "541",
+                    "type": "CheckBoxGroup",
+                    "list": "第五波",
+                    "select": "0",
+                    "rect": "10,160,80,30"
+                },
+			    {
+                    "id": "542",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "3",
+					"rect": "85,160,120,20"
+                },
+				{
+                    "id": "543",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,160,45,20"
+                },
+				{
+                    "id": "544",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,160,60,20"
+                },
+				{
+                    "id": "545",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "1",
+					"rect": "325,160,115,20"
+                },
+				{
+                    "id": "551",
+                    "type": "CheckBoxGroup",
+                    "list": "第六波",
+                    "select": "0",
+                    "rect": "10,190,80,30"
+                },
+			    {
+                    "id": "552",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "4",
+					"rect": "85,190,120,20"
+                },
+				{
+                    "id": "553",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,190,45,20"
+                },
+				{
+                    "id": "554",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,190,60,20"
+                },
+				{
+                    "id": "555",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,190,115,20"
+                },
+				{
+                    "id": "561",
+                    "type": "CheckBoxGroup",
+                    "list": "第七波",
+                    "select": "0",
+                    "rect": "10,220,80,30"
+                },
+			    {
+                    "id": "562",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,220,120,20"
+                },
+				{
+                    "id": "563",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "52",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,220,45,20"
+                },
+				{
+                    "id": "564",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,220,60,20"
+                },
+				{
+                    "id": "565",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,220,115,20"
+                },
+								{
+                    "id": "571",
+                    "type": "CheckBoxGroup",
+                    "list": "第八波",
+                    "select": "0",
+                    "rect": "10,250,80,30"
+                },
+			    {
+                    "id": "572",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "1",
+					"rect": "85,250,120,20"
+                },
+				{
+                    "id": "573",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "80",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,250,45,20"
+                },
+				{
+                    "id": "574",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,250,60,20"
+                },
+				{
+                    "id": "575",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "1",
+					"rect": "325,250,115,20"
+                },
+				{
+                    "id": "581",
+                    "type": "CheckBoxGroup",
+                    "list": "第九波",
+                    "select": "0",
+                    "rect": "10,280,80,30"
+                },
+			    {
+                    "id": "582",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "2",
+					"rect": "85,280,120,20"
+                },
+				{
+                    "id": "583",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "40",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,280,45,20"
+                },
+				{
+                    "id": "584",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,280,60,20"
+                },
+				{
+                    "id": "585",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,280,115,20"
+                },
+				{
+                    "id": "591",
+                    "type": "CheckBoxGroup",
+                    "list": "第十波",
+                    "select": "0",
+                    "rect": "10,310,80,30"
+                },
+			    {
+                    "id": "592",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "11",
+					"rect": "85,310,120,20"
+                },
+				{
+                    "id": "593",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "1",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,310,45,20"
+                },
+				{
+                    "id": "594",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,310,60,20"
+                },
+				{
+                    "id": "595",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,310,115,20"
+                },
+							{
+                    "id": "601",
+                    "type": "CheckBoxGroup",
+                    "list": "十一波",
+                    "select": "0",
+                    "rect": "10,340,80,30"
+                },
+			    {
+                    "id": "602",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "12",
+					"rect": "85,340,120,20"
+                },
+				{
+                    "id": "603",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "1",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,340,45,20"
+                },
+				{
+                    "id": "604",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,340,60,20"
+                },
+				{
+                    "id": "605",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,340,115,20"
+                },
+				{
+                    "id": "611",
+                    "type": "CheckBoxGroup",
+                    "list": "十二波",
+                    "select": "",
+                    "rect": "10,370,80,30"
+                },
+			    {
+                    "id": "612",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,370,120,20"
+                },
+				{
+                    "id": "613",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,370,45,20"
+                },
+				{
+                    "id": "614",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,370,60,20"
+                },
+				{
+                    "id": "615",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,370,115,20"
+                },
+								{
+                    "id": "621",
+                    "type": "CheckBoxGroup",
+                    "list": "十三波",
+                    "select": "",
+                    "rect": "10,400,80,30"
+                },
+			    {
+                    "id": "622",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,400,120,20"
+                },
+				{
+                    "id": "623",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,400,45,20"
+                },
+				{
+                    "id": "624",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,400,60,20"
+                },
+				{
+                    "id": "625",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,400,115,20"
+                },
+				{
+                    "id": "631",
+                    "type": "CheckBoxGroup",
+                    "list": "十四波",
+                    "select": "",
+                    "rect": "10,430,80,30"
+                },
+			    {
+                    "id": "632",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,430,120,20"
+                },
+				{
+                    "id": "633",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,430,45,20"
+                },
+				{
+                    "id": "634",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,430,60,20"
+                },
+				{
+                    "id": "635",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,430,115,20"
+                },
+				{
+                    "id": "641",
+                    "type": "CheckBoxGroup",
+                    "list": "十五波",
+                    "select": "",
+                    "rect": "10,460,80,30"
+                },
+			    {
+                    "id": "642",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,460,120,20"
+                },
+				{
+                    "id": "643",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,460,45,20"
+                },
+				{
+                    "id": "644",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,460,60,20"
+                },
+				{
+                    "id": "645",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,460,115,20"
+                }
+			]
+        },
+        {
+            "type": "Page",
+            "style": "custom",
+            "text": "死鱼战斗",
+            "views": [	
+ {
+                    "type": "Image",
+                    "src": "ts2.jpg",
+                    "rect": "455,10,100,220"
+                },		
+		 {
+            "id": "700",
+            "type": "Label",
+            "text": "进攻流程       下兵兵种            下兵数量 间隔(毫秒)     集火程度",
+            "size": 14,
+            "align": "center",
+            "color": "0,0,255",
+			"rect": "0,12,420,30"
+        },	
+			
+			     {
+                    "id": "701",
+                    "type": "CheckBoxGroup",
+                    "list": "第一波",
+                    "select": "0",
+                    "rect": "10,40,80,30"
+                },
+			    {
+                    "id": "702",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,40,120,20"
+                },
+				{
+                    "id": "703",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "8",
+                    "size": 10,
+                    "align": "left",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,40,45,20"
+                },
+				{
+                    "id": "704",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,40,60,20"
+                },
+				{
+                    "id": "705",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "3",
+					"rect": "325,40,115,20"
+                },
+				{
+                    "id": "711",
+                    "type": "CheckBoxGroup",
+                    "list": "第二波",
+                    "select": "0",
+                    "rect": "10,70,80,30"
+                },
+			    {
+                    "id": "712",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,70,120,20"
+                },
+				{
+                    "id": "713",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,70,45,20"
+                },
+				{
+                    "id": "714",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,70,60,20"
+                },
+				{
+                    "id": "715",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,70,115,20"
+                },
+				{
+                    "id": "721",
+                    "type": "CheckBoxGroup",
+                    "list": "第三波",
+                    "select": "0",
+                    "rect": "10,100,80,30"
+                },
+			    {
+                    "id": "722",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "1",
+					"rect": "85,100,120,20"
+                },
+				{
+                    "id": "723",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "40",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,100,45,20"
+                },
+				{
+                    "id": "724",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,100,60,20"
+                },
+				{
+                    "id": "725",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "1",
+					"rect": "325,100,115,20"
+                },
+								{
+                    "id": "731",
+                    "type": "CheckBoxGroup",
+                    "list": "第四波",
+                    "select": "0",
+                    "rect": "10,130,80,30"
+                },
+			    {
+                    "id": "732",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "4",
+					"rect": "85,130,120,20"
+                },
+				{
+                    "id": "733",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,130,45,20"
+                },
+				{
+                    "id": "734",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,130,60,20"
+                },
+				{
+                    "id": "735",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,130,115,20"
+                },
+				{
+                    "id": "741",
+                    "type": "CheckBoxGroup",
+                    "list": "第五波",
+                    "select": "0",
+                    "rect": "10,160,80,30"
+                },
+			    {
+                    "id": "742",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "3",
+					"rect": "85,160,120,20"
+                },
+				{
+                    "id": "743",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,160,45,20"
+                },
+				{
+                    "id": "744",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,160,60,20"
+                },
+				{
+                    "id": "745",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "1",
+					"rect": "325,160,115,20"
+                },
+				{
+                    "id": "751",
+                    "type": "CheckBoxGroup",
+                    "list": "第六波",
+                    "select": "0",
+                    "rect": "10,190,80,30"
+                },
+			    {
+                    "id": "752",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "4",
+					"rect": "85,190,120,20"
+                },
+				{
+                    "id": "753",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "4",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,190,45,20"
+                },
+				{
+                    "id": "754",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,190,60,20"
+                },
+				{
+                    "id": "755",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,190,115,20"
+                },
+				{
+                    "id": "761",
+                    "type": "CheckBoxGroup",
+                    "list": "第七波",
+                    "select": "0",
+                    "rect": "10,220,80,30"
+                },
+			    {
+                    "id": "762",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,220,120,20"
+                },
+				{
+                    "id": "763",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "52",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,220,45,20"
+                },
+				{
+                    "id": "764",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,220,60,20"
+                },
+				{
+                    "id": "765",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,220,115,20"
+                },
+								{
+                    "id": "771",
+                    "type": "CheckBoxGroup",
+                    "list": "第八波",
+                    "select": "0",
+                    "rect": "10,250,80,30"
+                },
+			    {
+                    "id": "772",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "1",
+					"rect": "85,250,120,20"
+                },
+				{
+                    "id": "773",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "80",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,250,45,20"
+                },
+				{
+                    "id": "774",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,250,60,20"
+                },
+				{
+                    "id": "775",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "1",
+					"rect": "325,250,115,20"
+                },
+				{
+                    "id": "781",
+                    "type": "CheckBoxGroup",
+                    "list": "第九波",
+                    "select": "0",
+                    "rect": "10,280,80,30"
+                },
+			    {
+                    "id": "782",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "2",
+					"rect": "85,280,120,20"
+                },
+				{
+                    "id": "783",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "40",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,280,45,20"
+                },
+				{
+                    "id": "784",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,280,60,20"
+                },
+				{
+                    "id": "785",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "2",
+					"rect": "325,280,115,20"
+                },
+				{
+                    "id": "791",
+                    "type": "CheckBoxGroup",
+                    "list": "第十波",
+                    "select": "0",
+                    "rect": "10,310,80,30"
+                },
+			    {
+                    "id": "792",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "11",
+					"rect": "85,310,120,20"
+                },
+				{
+                    "id": "793",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "1",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,310,45,20"
+                },
+				{
+                    "id": "794",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,310,60,20"
+                },
+				{
+                    "id": "795",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,310,115,20"
+                },
+							{
+                    "id": "801",
+                    "type": "CheckBoxGroup",
+                    "list": "十一波",
+                    "select": "0",
+                    "rect": "10,340,80,30"
+                },
+			    {
+                    "id": "802",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "12",
+					"rect": "85,340,120,20"
+                },
+				{
+                    "id": "803",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "1",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,340,45,20"
+                },
+				{
+                    "id": "804",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,340,60,20"
+                },
+				{
+                    "id": "805",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,340,115,20"
+                },
+				{
+                    "id": "811",
+                    "type": "CheckBoxGroup",
+                    "list": "十二波",
+                    "select": "",
+                    "rect": "10,370,80,30"
+                },
+			    {
+                    "id": "812",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,370,120,20"
+                },
+				{
+                    "id": "813",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,370,45,20"
+                },
+				{
+                    "id": "814",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,370,60,20"
+                },
+				{
+                    "id": "815",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,370,115,20"
+                },
+								{
+                    "id": "821",
+                    "type": "CheckBoxGroup",
+                    "list": "十三波",
+                    "select": "",
+                    "rect": "10,400,80,30"
+                },
+			    {
+                    "id": "822",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,400,120,20"
+                },
+				{
+                    "id": "823",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,400,45,20"
+                },
+				{
+                    "id": "824",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,400,60,20"
+                },
+				{
+                    "id": "825",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,400,115,20"
+                },
+				{
+                    "id": "831",
+                    "type": "CheckBoxGroup",
+                    "list": "十四波",
+                    "select": "",
+                    "rect": "10,430,80,30"
+                },
+			    {
+                    "id": "832",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,430,120,20"
+                },
+				{
+                    "id": "833",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,430,45,20"
+                },
+				{
+                    "id": "834",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,430,60,20"
+                },
+				{
+                    "id": "835",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,430,115,20"
+                },
+				{
+                    "id": "841",
+                    "type": "CheckBoxGroup",
+                    "list": "十五波",
+                    "select": "",
+                    "rect": "10,460,80,30"
+                },
+			    {
+                    "id": "842",
+                    "type": "ComboBox",
+                    "list": "黄毛,妹妹,哥布林,炸弹,巨人,法师,小恶魔,野猪,巨龙,石头人,天使,国王,女王,女巫,天狗,气球,皮卡,武神",
+                    "select": "0",
+					"rect": "85,460,120,20"
+                },
+				{
+                    "id": "843",
+                    "type": "Edit",
+                    "prompt": "下兵数量(请填写纯数字，否则会出错,这个数量会平均分配到您优先进攻的建筑上)",
+                    "text": "0",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "212,460,45,20"
+                },
+				{
+                    "id": "844",
+                    "type": "Edit",
+                    "prompt": "下兵间隔(毫秒,请填写纯数字，这个间隔是这波兵和下波兵的间隔)",
+                    "text": "20",
+                    "size": 10,
+                    "align": "center",
+                    "color": "0,0,0",
+                    "kbtype": "number",
+                    "rect": "260,460,60,20"
+                },
+				{
+                    "id": "845",
+                    "type": "ComboBox",
+                    "list": "集中,较集中,比较分散,分散,非常分散",
+                    "select": "0",
+					"rect": "325,460,115,20"
+                }
+			]
+        }
+		
+		
+    ]
+}

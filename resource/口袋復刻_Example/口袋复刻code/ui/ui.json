@@ -1,0 +1,38 @@
+{
+    "style": "default",
+    "config": "save_kd.dat",
+    "width": 400,
+    "height": 300,
+    "cancelname": "取消", 
+    "okname": "确定",
+    "views":[
+                {
+                    "id": "101",
+                    "type": "CheckBoxGroup",
+                    "list": "藏宝屋,联盟试炼,自动冒险",
+                    "select": "0"
+                },
+                {
+                    "id": "102",
+                    "type": "CheckBoxGroup",
+                    "list": "自动恢复",
+                    "select": "0"
+                },
+				{
+					"type": "Label",
+					"text": "间隔恢复战斗次数:",
+					"size": 16, 
+					"align": "left"
+                },
+
+                {
+                    "id": "103",
+                    "type": "Edit", 
+                    "prompt": "",
+                    "text": "2",
+                    "size": 15,
+                    "align": "left",
+                    "kbtype":"number"
+				}
+    ]
+}

@@ -1,0 +1,85 @@
+{
+   "cancelname" : "停止",
+   "config" : "roi.dat",
+   "height" : 608,
+   "init_x" : 0,
+   "init_y" : 0,
+   "okname" : "GO!",
+   "pr_h" : 0,
+   "pr_x" : 0,
+   "pr_y" : 0,
+   "style" : "custom",
+   "views" : [
+      {
+         "pr_h" : 601.26857142857,
+         "pr_x" : 770.85714285714005,
+         "style" : "custom",
+         "text" : " ",
+         "type" : "Page",
+         "views" : [
+            {
+               "rect" : "0,0,770,585",
+               "src" : "UI1BG.jpg",
+               "type" : "Image"
+            },
+						{
+               "align" : "left",
+               "color" : "35,146,255",
+               "rect" : "14,0,800,50",
+               "size" : 28,
+               "text" : "加入QQ群:437808991进群验证:嘟嘟",
+               "type" : "Label"
+            },
+            {
+               "align" : "left",
+               "color" : "35,146,255",
+               "rect" : "14,350,84,11",
+               "size" : 28,
+               "text" : "",
+               "type" : "Label"
+            },
+            {
+               "id" : "屏幕方向",
+               "list" : " HOME键向左                    ,HOME键向右",
+               "rect" : "112,380,770,50",
+               "select" : "1",
+               "size" : 25,
+               "type" : "RadioGroup"
+            },
+            {
+               "align" : "left",
+               "color" : "35,146,255",
+               "rect" : "14,350,84,11",
+               "size" : 28,
+               "text" : "",
+               "type" : "Label"
+            },
+            {
+               "id" : "visibleTapp",
+               "list" : "            ",
+               "rect" : "420,430,770,56",
+               "select" : "0",
+               "size" : 25,
+               "type" : "CheckBoxGroup"
+            },
+            {
+               "align" : "left",
+               "color" : "35,146,255",
+               "rect" : "14,463,200,11",
+               "size" : 28,
+               "text" : "",
+               "type" : "Label"
+            },
+						{
+               "id" : "visibleTipp",
+               "list" : "            ",
+               "rect" : "420,487,770,56",
+               "select" : "0",
+               "size" : 25,
+               "type" : "CheckBoxGroup"
+            }
+         ]
+      }
+   ],
+   "width" : 770.85714285714005
+}

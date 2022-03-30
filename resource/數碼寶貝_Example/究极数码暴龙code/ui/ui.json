@@ -1,0 +1,40 @@
+{
+    "style": "default",
+    "config": "save_smbl.dat",
+    "width": 400,
+    "height": 300,
+    "cancelname": "取消", 
+    "okname": "确定",
+    "views":[
+                {
+                    "id": "101",
+                    "type": "CheckBoxGroup",
+                    "list": "抢红包,自动屠魔",
+                    "select": "1"
+                },
+				{
+					"type": "Label",
+					"text": "屠魔间隔分钟:",
+					"size": 16, 
+					"align": "left"
+                },
+
+                {
+                    "id": "102",
+                    "type": "Edit", 
+                    "prompt": "",
+                    "text": "10",
+                    "size": 15,
+                    "align": "left",
+                    "kbtype":"number"
+				},
+				{
+                    "id": "103",
+                    "type": "CheckBoxGroup",
+                    "list": "屠魔等待时间抢红包",
+                    "select": "0"
+                },
+				
+				
+    ]
+}
